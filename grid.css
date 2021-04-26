@@ -13,9 +13,9 @@
 .item {
     background-color: black;
 }
-.item1 { grid-area: header; height: 100px; }
-.item2 { grid-area: sidebar; height: 300px;}
-.item3 { grid-area: cont1; height: 140px; width: 100%;}
-.item4 { grid-area: cont2; height: 140px; width: 100%}
-.item4 { grid-area: cont3; height: 140px; width: 100%}
-.item5 { grid-area: footer; height: 100px;}
+.item1 { grid-area: header; }
+.item2 { grid-area: sidebar;}
+.item3 { grid-area: cont1;}
+.item4 { grid-area: cont2;}
+.item4 { grid-area: cont3;}
+.item5 { grid-area: footer;}
