@@ -6,50 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
-    <h1 class="center-align">Buttons & Icons</h1>
-    <div class="row container">
-        <div class="col waves-effect waves-light btn">read more</div>
-        <div class="col waves-effect waves-light btn">read more</div>
-        <div class="col waves-effect waves-light btn">read more</div>
-        <div class="col waves-effect waves-light btn">read more</div>
-        <div class="col waves-effect waves-light btn">read more</div>
-        <div class="col waves-effect white red-text btn">read more</div>
-        <div class="col waves-effect white blue-text btn">read more</div>
-        <div class="col waves-effect white green-text btn">read more</div>
-        <div class="col waves-effect white grey-text btn">read more</div>
-        <div class="col waves-effect white purple-text btn">read more</div>
-    </div>
+    <h1 class="center-align">Floating & Fixed Action Buttons</h1>
     <div class="container">
-        <i class="material-icons">shopping_cart</i>
-        <i class="material-icons red-text">settings</i>
-        <i class="material-icons blue-text">search</i>
-        <i class="material-icons">stars</i>
+        <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+        <a class="btn-floating btn-large waves-effect blue"><i class="material-icons">create</i></a>
+        <a class="btn-floating btn-large pulse green"><i class="material-icons">upload</i></a>
     </div>
-    <div class="container">
-        <i class="large material-icons">check</i>
-        <i class="medium material-icons">check</i>
-        <i class="small material-icons">check</i>
-        <i class="tiny material-icons">check</i>
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+          <i class="large material-icons">mode_edit</i>
+        </a>
+        <ul>
+          <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+          <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+          <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+          <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+        </ul>
     </div>
-    <div class="container">
-        <div class="waves-effect waves-light btn"><i class="material-icons"> shopping_cart </i>buy now</div>
-        <div class="waves-effect waves-light btn">buy now <i class="tiny material-icons">shopping_cart</i></div>
-        <div class="waves-effect waves-light btn"><i class="material-icons"> shopping_cart </i>buy now</div>
-    </div>
-    <br>
-    <div class="container">
-        <div class="waves-effect red btn">read more</div>
-        <div class="waves-effect purple btn">read more</div>
-        <div class="waves-effect orange btn">read more</div>
-        <div class="waves-effect waves-light btn">read more</div>
-        <div class="waves-effect black btn">read more</div>
-        <div class="waves-effect yellow btn">read more</div>
-    </div>
-    <br>
-    <div class="container">
-        <div class="btn-large waves-effect waves-light btn">large button</div>
-        <div class="btn-large disabled waves-effect waves-light btn">disabled button</div>
-    </div>
+    <script src="mat.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </body>
 </html>
